@@ -1,3 +1,4 @@
+;program to write first n elements of the fibonacci sequence
 (defun fibonacci (n &optional (a 0) (b 1))
   (if (zerop n)
       nil
@@ -5,4 +6,4 @@
   )
 )
 
-(write (fibonacci 2)) ; ==> (0 1 1 2 3)
+(write (fibonacci 5)) ; ==> (0 1 1 2 3)
