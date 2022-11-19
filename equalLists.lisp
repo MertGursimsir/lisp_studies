@@ -1,3 +1,4 @@
+;program to check if two complex lists are equal
 (defun test(list1 list2)
     (if (= (length list1) 0)
         (if (= (length list2) 0)
