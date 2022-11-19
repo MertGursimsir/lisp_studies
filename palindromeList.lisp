@@ -1,3 +1,4 @@
+;program to check if given list is palindrome
 (defun test(liste end)
     (if (<= 0 end)
         (cons (nth end liste) (test liste (1- end)))
