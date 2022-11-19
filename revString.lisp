@@ -1,3 +1,4 @@
+;program to reverse given string
 (defun rev(str &optional (start 0) (end (1- (length str))))
     (if (<= start end)
         (if (char-equal (char str start) (char str end))
@@ -10,5 +11,3 @@
 
 (setq a "2testsets")
 (write (rev a))
-
-(write (alpha-char-p (char a 0)))
