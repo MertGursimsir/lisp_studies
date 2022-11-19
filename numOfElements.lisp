@@ -1,3 +1,4 @@
+;program to check number of occurences of given element in the complex list
 (defun test (liste element)
     (if (not (null (car liste)))
         (if (listp (car liste))
